@@ -6,11 +6,11 @@ var moment = require('moment');
 var Task;
 
 var taskSchema = new mongoose.Schema({
-  taskName: String;
-  taskDetails: String;
-  date: String;
-  completion: Boolean;
-  Delete: ;
+  taskName: String,
+  taskDetails: String,
+  date: String,
+  completion: Boolean,
+  Delete: String
 });
 
 Task = mongoose.model('task', taskSchema);
