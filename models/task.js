@@ -10,7 +10,7 @@ var taskSchema = new mongoose.Schema({
   taskDetails: String,
   date: String,
   completion: Boolean,
-  Delete: String
+  remove: String
 });
 
 Task = mongoose.model('task', taskSchema);
